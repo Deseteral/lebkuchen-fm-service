@@ -17,6 +17,8 @@
     "@babel/preset-env": "7.7.1",
     "@babel/preset-react": "7.7.0",
     "@babel/preset-typescript": "7.7.2",
+    "@typescript-eslint/eslint-plugin": "2.7.0",
+    "@typescript-eslint/parser": "2.7.0",
     "babel": "6.23.0",
     "babel-loader": "8.0.6",
     "cross-env": "6.0.3",
@@ -37,7 +39,7 @@
     "webpack-dev-server": "3.9.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server",
     "build": "react-scripts build",
     "test": "react-scripts test",

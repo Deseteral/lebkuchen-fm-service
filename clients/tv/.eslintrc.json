@@ -1,7 +1,8 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "airbnb",
-    "react-app"
+    "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
     "class-methods-use-this": "off",
