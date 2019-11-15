@@ -1,6 +1,6 @@
 import CommandEmitter from '../services/CommandEmitter';
 
-function executeFmCommand(command:string, ...options:Array<string>) {
+function executeFmCommand(command: string, ...options: Array<string>): void {
   CommandEmitter.emit(command, ...options);
 }
 

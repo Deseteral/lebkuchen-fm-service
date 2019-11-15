@@ -6,6 +6,7 @@ import ConsoleExecutor from './executors/ConsoleExecutor';
 
 // since speechSynthesis.speak() without user activation is no longer allowed
 // executeFmCommand('speech', 'Cześć!') can be triggered from console for now
+// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
 // @ts-ignore
 window.executeFmCommand = ConsoleExecutor.executeFmCommand;
 
