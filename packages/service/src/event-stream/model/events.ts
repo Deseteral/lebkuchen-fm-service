@@ -13,6 +13,7 @@ interface PlayerStateRequestEvent {
 interface AddSongsToQueueEvent {
   id: 'AddSongsToQueueEvent',
   songs: Song[],
+  atTheBeginning: boolean,
 }
 
 interface PlayXSoundEvent {
